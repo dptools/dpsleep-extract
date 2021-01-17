@@ -17,10 +17,10 @@ STUDTY_left wrist_WATCHID_YYYY-MM-DD hh-mm-ss.csv.gz
 
 - The Data has the following format:
     - 100 rows of metadata
-    - Actigraphy data from row 101 wth the following columns:
+    - Actigraphy data from row 101 with the following columns:
 
 ```text
-YYYY-MM-DD hh:mm:ss:mmm  |  accel_x(g)  |  accel_y(g)  |  accel_z(g)  |  light(lux)  |  button_press(0-1)  |  temperature(deg.C)
+YYYY-MM-DD hh:mm:ss:mmm|accel_x(g)|accel_y(g)|accel_z(g)|light(lux)|button(0-1)|temperature(deg.C)
 ```
 
 - The output directory can be edited. The default is `./processed/mtl1` and the 
