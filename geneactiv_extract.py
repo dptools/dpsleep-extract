@@ -79,10 +79,6 @@ def main():
 
         # Gets all subjects under the study directory
         subjects = args.subject if args.subject else scan_dir(study_path)
-        try: 
-            subjects.remove('TSRNM')
-        except Exception:
-            pass
         for subject in subjects:
             subject_path = os.path.join(study_path, subject)
 #            logger.info('Subject path path is {mt}.'.format(mt=subject_path))
