@@ -30,7 +30,7 @@ YYYY-MM-DD hh:mm:ss:mmm  |  accel_x(g)  |  accel_y(g)  |  accel_z(g)  |  light(l
   subject. Running that in parallel for different subjects of a study is 
   recommended to reduce the execution time.
 
-- After this step run freq pipeline
+- After this step run dpsleep-freq pipeline
 
 ## Installation
 
